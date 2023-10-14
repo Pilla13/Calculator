@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
 html {
   box-sizing: border-box;
   height: 100%;
@@ -63,7 +65,6 @@ body {
 
 .calc-button-row {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin: 5% 0;
 }
@@ -83,6 +84,8 @@ body {
 
   flex-basis: 20%;
   height: 65px;
+
+  cursor: pointer;
 }
 
 .calc-button:last-child {
@@ -96,4 +99,25 @@ body {
 
   color: #fff;
   background: #d72880;
+}
+
+.calc-button:last-child:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.calc-button:hover {
+    background-color: inherit;
+}
+
+.calc-button:active {
+    background-color: #ffef78;
+}
+
+.double {
+    flex-basis: 47%;
+}
+
+.triple {
+    flex-basis: 73%;
 }
