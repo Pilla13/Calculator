@@ -41,15 +41,10 @@ function handleSymbol(symbol) {
       break;
 
     case "−":
-      break;
-
     case "÷":
-      break;
-
     case "×":
-      break;
-
     case "÷":
+      handleMath(symbol);
       break;
   }
 }
